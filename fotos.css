@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+        /* Estilos CSS aqui */
+        form {
+            text-align: center;
+            border-radius: #333;
+            padding: 180px;
+        }
+        #fileInput {
+            display: inline-block;
+        }
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .thumbnail {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+        }
+        .modal-content {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+        }
+        .modal-img {
+            width: 100%;
+            height: auto;
+        }
+        button  {
+            background-color: #0c75ff;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            border: 15px;
+            border-radius: 400px;
+            cursor: pointer;
+            float: right;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: rgb(2, 151, 2);
+        }
+
+        input {
+            background-color: #0c75ff;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            border: 15px;
+            border-radius: 400px;
+            cursor: pointer;
+            
+            font-size: 15px;
+        }
+
+        
+        
+
+        #uploadForm {
+            text-align: center;
+            padding: 20px; /* Adiciona um preenchimento interno ao formulário */
+            border: 1px solid #000000; /* Adiciona uma borda ao redor do formulário */
+            border-radius: 10px; /* Adiciona cantos arredondados à borda do formulário */
+            max-width: 650px; /* Define uma largura máxima para o formulário */
+            margin: 0 auto; /* Centraliza o formulário na página */
+            background: linear-gradient(72deg, #b3b1b1 1%, #585858 99%); /* Cor de fundo branca para o formulário */
+        }
